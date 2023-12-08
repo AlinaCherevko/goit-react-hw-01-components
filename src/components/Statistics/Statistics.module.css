@@ -1,0 +1,12 @@
+.statistics {
+  padding-bottom: 60px;
+}
+.title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.list {
+  display: flex;
+  gap: 40px;
+}

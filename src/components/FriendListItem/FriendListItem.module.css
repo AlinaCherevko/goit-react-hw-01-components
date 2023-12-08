@@ -1,0 +1,42 @@
+.item {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 10px 20px;
+  /* width: calc((100% - 50px) / 2); */
+
+  height: 120px;
+  width: 400px;
+  border-radius: 2px;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.12);
+}
+
+.status {
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  border: 1px solid #000;
+}
+.avatar {
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+  border-color: #ccc;
+}
+.name {
+  font-size: 24px;
+  font-weight: 500;
+}
+.name:focus,
+.name:hover {
+  cursor: pointer;
+  border-bottom: 2px solid #000;
+}
+.online {
+  background-color: green;
+}
+.offline {
+  background-color: #ccc;
+}
